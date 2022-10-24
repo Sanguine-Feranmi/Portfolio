@@ -9,9 +9,9 @@
 
 }
 body{
- /* background:rgb(35, 35, 180);*/
-  background: white;
-  color: black;
+ background:rgb(35, 35, 180);
+ /* background: white;*/
+  /*color: black;*/
 }
 .head{
   height: 100vh;
