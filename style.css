@@ -194,6 +194,7 @@ body{
 .about{
   width: 80%;
   margin: auto;
+  color: white;
 }
 .about span{
   font-family: 'Courier New', Courier, monospace;
@@ -310,6 +311,7 @@ hr{
 }
 .experience p{
   font-family: cursive;
+  color: white;
 }
 .experience a{
   padding-top: 10px;
@@ -382,7 +384,7 @@ hr{
   padding: 10px;
 }
 .card .txts .txt p{
-  color: black;
+  color: white;
   font-size: 15px;
 }
 .card .txts .btn{
@@ -409,7 +411,7 @@ hr{
   background: none;
 }
 .card .txts .btn button:nth-child(2) a{
-    color: black;
+    color: white;
   font-weight: 700;
 }
 .card .txts .btn button:nth-child(2) a:active{
