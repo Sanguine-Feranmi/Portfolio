@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayeri Feranmi Israel.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="lib/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="head">
+    <!-- <div class="navs"></div> -->
+    <div class="nav">
+      <div class="logo">
+        <img class="logo-img" src="images/MLreal.png">
+      </div>
+      <div class="sidebar">
+        <ul>
+          <li>
+            <a href="#about"> <i >01.</i>About</a>
+          </li>
+          <li>
+            <a href="#experience"> <i >02.</i>Experience</a>
+          </li>
+          <li>
+            <a href="#work"> <i>03.</i>Work</a>
+          </li>
+          <li>
+            <a href="#contact" > <i>04.</i>Contact</a>
+          </li>
+          <li class="ress">
+            <a href="index.html" class="res">RESUME</a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu">
+        <img src="images/menu.png" alt="" class="menu-img">
+      </div>
+      <script>
+        $(document).ready(function (){
+          $(".menu").on("click", function(){
+            $(".menu").css("right", "200px")
+            $(".sidebar").slideToggle(600)
+          })  
+          $("li a").on("click", function(){
+            $(".sidebar").slideUp(600)
+          })
+        })
+      </script>
+    </div>
+    <div class="me">
+      <div class="me-txt">
+        <p class="me-p1">Hi, my name is</p>
+        <h2 class="h2-1">Bayeri Feranmi .I.</h2>
+        <h2 class="h2-2">i develop the aesthetic view of the web.</h2>
+        <p class="me-p2">I'm a frontend developer specialised in designing and developing exceptional digital experiences by the creation of user-friendly frontend development designs</p>
+        <button><a href="#">Check my Works!</a></button>
+      </div>
+    </div>
+    <div class="right">
+      <div class="mail">
+        <a href="https://www.feranmibayeri@gmail.com">feranmibayeri@gmail.com</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="about" id="about">
+      <h2> <span>01</span> About</h2> <hr>
+    <div class="abt-head">
+      <div class="abt-txts">
+        <p>
+        Hello! My name is Sanguine Feranmi and I enjoy creating things that will live and breath in the  <span class="htm">CLOUD</span>. My interest in web development started back in 2019 when i  <span class="htm">hacked a bank WiFi</span> and i decided to learn more about hacking but ended up learning about  <span class="htm"> HTML & CSS!</span> <br>
+        <br>
+        My interest in web development started back in 2019 when i hacked a bank WiFi and i decided to learn more about hacking but ended up learning about <span class="htm"> HTML & CSS!</span>. <br>
+        <br>
+          I also recently launced a website for  <span class="htm">easy calculation and analysing of research questionnaires </span> using <span class="htm">HTML,CSS & JS.</span> 
+          Here are a few technologies I’ve been working with recently:
+          </p>
+          <div class="langs">
+            <div class="lang1">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript (ES6+)</li>
+            </div>
+            <div class="lang2">
+              <li>jQuery</li>
+              <li>Bootstrap</li>
+              <li>WordPress.</li>
+            </div>
+          </div>
+      </div>
+      <div class="abt-imgs">
+        <div class="abt-imgss">
+           <img class="abt-img" src="images/1663188886411_1.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="experience" id="experience">
+    <h2> <span class="htm">02</span> Where I've Worked</h2> <hr class="e-hr">
+    <p class="txt">My experience so far has been with Okansoso computer Engineering Limited, i did the frontend development for his company website. 
+
+    </p>
+    <a href="https://sanguine-feranmi.github.io/okansoso/">Visit site ></a>
+  </div>
+
+  <div class="work" id="work">
+    <h2> <span class="htm">03</span> Projects</h2> <hr>
+    <div class="cards">
+      <div class="card">
+        <div class="img">
+          <img src="images/sf5.JPG" alt="">
+        </div>
+        <div class="txts">
+          <div class="txt">
+            <p>Check out my Education website frontend development, so amazing and superb. i'm really sure you'll love it...</p>
+          </div>
+          <div class="btn">
+            <button> <a href="#" target="_blank">view ></a> </button>
+            <button><a href="#" target="_blank" class="read">Read more...></a></button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img">
+          <img src="images/sf1.JPG" alt="">
+        </div>
+        <div class="txts">
+          <div class="txt">
+            <p>Check out my wears website frontend development, so amazing and superb. i'm really sure you'll fall for it it...</p>
+          </div>
+          <div class="btn">
+            <button> <a href="#" target="_blank">view ></a> </button>
+            <button><a href="#" target="_blank" class="read">Read more...></a></button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img">
+          <img src="images/sf4.JPG" alt="">
+        </div>
+        <div class="txts">
+          <div class="txt">
+            <p>Check out my E-Commerce website frontend development, so amazing and superb. i'm really sure you'll love it...</p>
+          </div>
+          <div class="btn">
+            <button> <a href="#" target="_blank">view ></a> </button>
+            <button><a href="#" target="_blank" class="read">Read more...></a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="show-btn">
+      <button class="show"> <a href="htpps://github.com/Sanguine-Feranmi">Show more</a> </button>
+    </div>
+  </div>
+  <script>
+    $(document).ready(function(){
+      $(".img").on("mouseenter", function(){
+        // alert("Read more to explore more")
+      })
+      $(".read").on("click", function(){
+        $(".read").preventdefault()
+      })
+    })
+  </script>
+  <div class="footer" id="contact">
+    <h2> <span>04</span> Contact me</h2>
+    <h1>GET IN TOUCH</h1>
+    <div class="f1">
+      <p>I'm looking forward to support from friends and families, <br/>job supoort and financial support is all welcomed. <br/> <a href="https://wa.me/message/RMZ7LREMKJYTL1">click here</a> to give me new job alerts worth my specifications as my inbox is always open. <br> <a href="https://www.feranmibayeri@gmail.com">click here</a> to mail me.<br/> Thanks in Advance. i love❤ you</p>
+    </div>
+    <div class="f2">
+      <p>Designed and Built by Sanguine Feranmi <br/> 150,004views 100,000subscribers</p>
+    </div>
+  </div>
+</body>
+</html>
