@@ -16,6 +16,7 @@ body{
 .head{
   height: 100vh;
   padding: 10px;
+  background:rgb(35, 35, 180);
 }
 .nav{
   display: flex;
